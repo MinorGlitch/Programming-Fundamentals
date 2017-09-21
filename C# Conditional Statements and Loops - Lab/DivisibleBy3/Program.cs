@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Greeting
+namespace DivisibleBy3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var name = Console.ReadLine();
-
-            Console.WriteLine($"Hello, {name}!");
+            for (int i = 3; i <= 100; i += 3)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
